@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Grade System</title>
+</head>
+<body>  
+    <div class="rectangle-hud">
+        <div class="title">
+        <h1>USTP Grading System</h1>
+            </div>
+        <div>
+            <input type="number" id="wst" placeholder="WEB SYSTEM AND TECHNOLOGIES">
+            <input type="number" id="im" placeholder="INFORMATION MANAGEMENT">
+            <input type="number" id="pe" placeholder="PHYSICAL EDUCATION">
+            <input type="number" id="net" placeholder="NETWORKING">
+            <input type="number" id="sia" placeholder="SYSTEM INTEGRATION AND ARCHITECHTURE">
+            <input type="number" id="lwr" placeholder="LIFE AND WORKS OF RIZAL">
+            <input type="number" id="eth" placeholder="ETHICS">
+        </div>
+        <div>
+        <input type="button" value="Submit scores" onclick="toDisplaygrade()">
+        <div id="result">
+        </div>
+        <input type="button" value="Refresh" onclick="window.location.reload()">
+        <div id="guide">
+    </div>
+
+</body>
+</html>
